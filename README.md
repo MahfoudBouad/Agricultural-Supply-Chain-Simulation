@@ -10,8 +10,8 @@ Global commodities firms must position logistical assets (barges, trucks, elevat
 
 * **Automated Data Pipeline**: Engineered a Python-based ingestion engine to pull 10+ years of historical yield data from the USDA NASS API and corresponding climate records from the NOAA ACIS API.
 * **Relational Data Warehousing**: Designed and populated a local MS SQL Server instance to serve as the project's single source of truth, implementing a "Warehouse Cleanup" script to ensure data integrity.
-* **Feature Engineering (M.S. Stats Focus)**: To increase model sensitivity, I engineered a **Yield Lag (T-1)** feature and a **Precipitation Volatility** metric, accounting for the impact of "Flash Droughts" on late-summer crop development.
-* **Multi-Tool Visualization**: Developed an interactive Plotly choropleth map in Python and a comprehensive Tableau dashboard to identify counties falling below a 42 bu/acre production safety threshold.
+* **Feature Engineering **: To increase model sensitivity, I engineered a **Yield Lag (T-1)** feature and a **Precipitation Volatility** metric, accounting for the impact of "Flash Droughts" on late-summer crop development.
+* **Multi-Tool Visualization**: Developed an interactive Plotly choropleth map in Python and a comprehensive [Tableau dashboard](https://public.tableau.com/app/profile/mahfoud.bouad/viz/BuildinganAgriculturalAnalyticsDashboard/MissouriAgriculturalAnalyticsDashboard?publish=yes) to identify counties falling below a 42 bu/acre production safety threshold.
 
 ### **Result**
 
